@@ -1,0 +1,164 @@
+/* Overall Styles / Defaults */
+*, ::before, ::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 300rem;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #f4f5f5;
+    color:#9a9a9a;
+}
+body {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+h1 {
+    font-size: 2rem;
+}
+h4 {
+    font-size: 1.2rem;
+}
+h1, h4 {
+    font-weight: 300;
+    line-height: 1.1em;
+    margin-bottom: 2rem;
+}
+.italic {
+    font-style: italic;
+}
+.full-height {
+    min-height: 100vh;
+    padding: 5rem 0;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.centered {
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+.btn, .btn:visited, .btn:focus {
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 0 2rem;
+    height: 56px;
+    line-height: 56px;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #00d2ff;
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+.btn.full-width {
+    width: 100%;
+}
+.btn:hover {
+    -webkit-box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+}
+.info-btn, .info-btn:visited, .info-btn:focus {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    color: #fff;
+    width: 56px;
+    height: 56px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #1CD8D2;
+    background: -webkit-linear-gradient(to right, #93EDC7, #1CD8D2);
+    background: linear-gradient(to right, #93EDC7, #1CD8D2);
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+.info-btn i {
+    line-height: 56px;
+}
+.info-btn:hover {
+    -webkit-box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+}
+.ml-half {
+    margin-left: .5rem;
+    font-size: .875rem;
+}
+.text-center {
+    text-align: center;
+}
+
+/* Form Design */
+.form-element {
+    margin-bottom: 1rem;
+}
+.form-element input[type=text], .form-element input[type=password] {
+    font-size: inherit;
+    font-weight: inherit;
+    font-weight: 400;
+    font-family: "Roboto", Ubuntu, "Helvetica Neue", sans-serif;
+    color: #333;
+    line-height: 1.4em;
+    height: 56px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: middle;
+    padding: 0 1rem;
+    text-align: left;
+    border: 1px solid #d6d6d6;
+    border-radius: 0.1875rem;
+    background: rgba(255, 255, 255, 0.8);
+    background-clip: border-box;
+    background-clip: padding-box;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+}
+
+/* Modal Design */
+/* ============================================================ */
+/* ============================================================ */
+
+
+
+/* ============================================================ */
+/* ============================================================ */
+
+
+/* Larger Tablets / Small Desktops */
+@media screen and (min-width: 992px) {
+
+    /* Modal Design */
+    /* ============================================================ */
+    /* ============================================================ */
+
+    
+
+    /* ============================================================ */
+    /* ============================================================ */
+
+}

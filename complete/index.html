@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>Modals, off-canvas navigations & more...</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,700,700i" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/master.css">
+    </head>
+    <body>
+        <div class="page-body">
+            <div class="full-height">
+                <div class="centered">
+                    <h1>Join our fictitious SAAS</h1>
+                    <a href="subscribe.html" class="btn" data-toggle="true" data-toggle-class="active">Sign up today <i class="fas fa-user-plus ml-half"></i></a>
+                </div>
+                <a href="details.html" class="info-btn" data-toggle="true" data-toggle-class="active-2">
+                    <i class="fas fa-plus"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Modal 1 -->
+        <div class="modal-bg" data-toggle="true" data-toggle-class="active"></div>
+        <div class="modal" data-toggle-class="active">
+            <div class="modal-inner">
+                <a href="#" class="modal-close" data-toggle="true" data-toggle-class="active"><i class="fas fa-times"></i></a>
+                <div class="top-icon">
+                    <i class="fas fa-dice-d6"></i>
+                </div>
+                <h4 class="text-center">Premium Subscription</h4>
+                <form class="" action="index.html" method="post">
+                    <div class="form-element">
+                        <input type="text" name="" value="" placeholder="Name: John Doe">
+                    </div>
+                    <div class="form-element">
+                        <input type="text" name="" value="" placeholder="Email: john@example.com">
+                    </div>
+                    <div class="form-element">
+                        <input type="password" name="" value="" placeholder="Password">
+                    </div>
+                    <div>
+                        <button type="submit" class="btn full-width">Sign up <i class="fas fa-user-plus ml-half"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- /Modal 1 -->
+
+        <!-- Modal 2 -->
+        <div class="modal-bg" data-toggle="true" data-toggle-class="active-2"></div>
+        <div class="modal" data-toggle-class="active-2">
+            <div class="modal-inner">
+                <a href="#" class="modal-close" data-toggle="true" data-toggle-class="active-2"><i class="fas fa-times"></i></a>
+                <div class="top-icon teal">
+                    <i class="fab fa-js-square"></i>
+                </div>
+                <h4 class="text-center">Some notes on the JavaScript...</h4>
+                <p>
+                    When it comes to creating <span class="italic">modals</span>, there are various ways of achieving the same goal. This is my approach. I wanted to make a simple snippet of JavaScript that can be reused and all you have to alter are the toggled class names and some CSS styles so, in reality, this plugin is very much so CSS driven.
+                </p>
+                <p>
+                    What makes this snippet of code so great is you can use this for more than modals. You can use it for off-canvas navigations, dropdown menus, and much more. When developing websites, this was my main go to over and over again. Hope you can make use of this as well!
+                </p>
+            </div>
+        </div>
+        <!-- /Modal 2 -->
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>
